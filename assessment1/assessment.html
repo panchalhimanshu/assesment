@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<table>
+    <h1>Student Registaration Form</h1>
+
+    <tr><td>First Name:</td></tr>
+
+    <tr><td><input type="text" placeholder="Enter Your First Name" title="[a-zA-z]+"></td></tr>
+
+    <tr><td>Last Name:</td></tr>
+    <tr><td><input type="text"placeholder="Enter Your Last Name"></td></tr>
+
+    <tr><td>Email:</td></tr>
+    <tr><td><input type="email"placeholder="it should contain @.."></td></tr>
+
+    <tr><td>Mobile:</td></tr>
+    <tr><td><input type="text"placeholder="only 10 digits are allowed" pattern="[0-9]{10}"></td></tr>
+
+    <tr><td>Gender</td></tr>
+    <tr>
+        <td><input type="radio" name="select">Male
+        <input type="radio" name="select">Female</td>
+    </tr>
+    
+    <tr><td>Date Of Birth:</td></tr>
+    <tr><td><input type="date"></td></tr>
+
+    <tr><td>Address:</td></tr>
+    <tr><td><textarea rows="5"></textarea></td></tr>
+
+    <tr><td>City:</td></tr>
+    <tr><td><input type="TEXT"></td></tr>
+
+    <tr><td>Area PIN:</td></tr>
+    <tr><td><input type="text"></td></tr>
+
+    <tr><td>State:</td></tr>
+    <tr><td><input type="TEXT"></td></tr>
+
+    <tr><td>Qualification:</td></tr>
+    <tr><td>
+        <select>
+            <option>Select Qualification</option>
+        </select>
+    </td></tr>
+
+    <tr><td>Specialization:</td></tr>
+    <tr><td>
+        <input type="checkbox">Computer Science
+    </td></tr>
+
+        <tr><td><input type="checkbox">Information Technology</td></tr>
+        <tr><td><input type="checkbox">Computer Architecture</td></tr>
+        <tr><td><input type="checkbox">Tele Communication</td></tr>
+
+
+        <tr><td>Password:</td></tr>
+    <tr><td><input type="password" pattern="[a-zA-z0-9]{5,8}"></td></tr>
+
+    <tr><td><button>Registered</button></td></tr>
+    
+    
+</table>
+</body>
+</html>

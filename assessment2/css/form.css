@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title
+{
+    color: red;
+    text-align: center;
+    border-bottom: 3px solid;
+}
+.main
+{
+    background: whitesmoke;
+    display: flex;
+}
+.input
+{
+    margin: 10px 100px;
+    
+}
+.first
+{
+    margin: 10px 10px;
+}
+.ad-margin
+{
+    margin:2px 0 50px 10px;
+}
+.text-margin
+{
+    margin-bottom: 10px;
+}
+.first input
+{
+    background: green;
+    padding: 8px 10px;
+    color: white;
+    font-weight: 600;
+    margin-left:-114px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    
+<h1 class="title">Student Registration Form</h1>
+<div class="main">
+    <div class="names">
+        <div class="first">First Name:</div>
+        <div class="first">Last Name:</div>
+        <div class="first">Email:</div>
+        <div class="first">Mobile No:</div>
+        <div class="first">Gender:</div>
+        <div class="first">Date Of Birth:</div>
+        <div class="first ad-margin">Address:</div>
+        <div class="first">City:</div>
+        <div class="first">Area PIN:</div>
+        <div class="first">Qualifications:</div>
+        <div class="first ad-margin">Specialization:</div>
+        <div class="first">Password:</div>
+    </div>
+
+
+<form>
+
+
+    <div class="inputs">
+
+        <div class="input"><input type="text" placeholder="Enter Your First Name" name="select" required pattern="[a-zA-z]{3,6}" title="3-6 letter only"></div>
+        <div class="input"><input type="text" placeholder="Enter Your Last Name" name="select" required pattern="[a-zA-z]{3,6}"  title="3-6 letter only"></div>
+        <div class="input"><input type="email" placeholder="it should contain @.." name="select" required ></div>
+        <div class="input"><input type="text"placeholder="only 10 digits are allowed"  name="select" required title="10 digit only" pattern="[0-9]{10}"></div>
+        <div class="input"><input type="radio" name="select">Male
+            <input type="radio" name="select">Female</div>
+        <div class="input"><input type="date" name="select" required></div>
+        <div class="input text-margin"><textarea name="select" required rows="3"></textarea></div>
+        <div class="input"><input type="TEXT" name="select" required></td></div>
+        <div class="input"><input type="TEXT" name="select" required></td></div>
+        <div class="input"> 
+            <select name="select" required>
+                  <option>Select Qualification</option>
+                  <option>Select Qualification</option>
+                  <option>Select Qualification</option>
+            </select>
+        </div>
+        <div class="input"><input type="checkbox" name="select">Information Technology<br>
+            <input type="checkbox" name="select">Computer Architecture<br>
+            <input type="checkbox" name="select">Tele Communication</div>
+        <div class="input"><input type="TEXT" name="select" required ></div>
+        <div class="first"><input type="submit" value="Registered"></div> 
+
+    </div>
+
+</form>
+
+
+</div>
+   
+</body>
+</html>
